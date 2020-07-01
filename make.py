@@ -26,6 +26,9 @@ def runFiles(listOfFiles):                      # Open all files of the director
 
 
 def main():
+    if len(sys.argv) != 2:
+        print("Usage Format : " + "./" + sys.argv[0] + " " + "{Contest-Name}" + " {Problem-Counts}")
+        exit()
     dirname = str(sys.argv[1])
     if os.path.exists(dirname):
         print("File or Directory with the name '{}' already exists".format(dirname))
