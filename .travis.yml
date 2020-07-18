@@ -1,4 +1,5 @@
 language: python
+# specify version
 python:
   - "3.6"
 # command to run tests
