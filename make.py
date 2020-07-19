@@ -40,7 +40,6 @@ def runDirectory(dirname):
 def main():
 
 	# Check the args
-
 	if len(sys.argv) != 3:
 		print("Usage Format : " + sys.argv[0] + " " + "{Contest-Name}" + " {Problem-Counts}")
 		exit()
